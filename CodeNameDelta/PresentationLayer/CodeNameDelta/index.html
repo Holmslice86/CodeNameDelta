@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html data-ng-app="codeNameDelta" data-ng-controller="homeController as vm">
 <head>
     <meta charset="utf-8" />
     <title>CodeNameDelta</title>
@@ -11,19 +11,22 @@
 </head>
 <body>
     <p>Hello, your application is ready!</p>
-    <data-ng-view></data-ng-view>
 
+    <button id="camera" class="btn btn-primary">Camera</button>
+    <button id="library" class="btn btn-default">Library</button>
+    <div>Is angular working? {{vm.Answer}}</div>
     <!-- Cordova reference, this is added to your app when it's built. -->
+    
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
-    <script src="scripts/Dependencies/angular.min.js"></script>
-    <script src="scripts/Dependencies/angular.animate.min.js"></script>
-    <script src="scripts/Dependencies/angular.route.min.js"></script>
-    <script src="scripts/Dependencies/bootstrap.min.js"></script>
-    <script src="scripts/Dependencies/jquery-2.1.1.min.js"></script>
-    <script src="scripts/App/Controllers/home-controller.js"></script>
-    
-
+    <script src="scripts/app/dependencies/angular.min.js"></script>
+    <script src="scripts/app/dependencies/angular-route.min.js"></script>
+    <script src="scripts/app/dependencies/angular-animate.min.js"></script>
+    <script src="scripts/app/dependencies/jquery-2.1.1.min.js"></script>
+    <script src="scripts/app/dependencies/bootstrap.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/app-config.js"></script>
+    <script src="scripts/app/controllers/home-controller.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 </html>

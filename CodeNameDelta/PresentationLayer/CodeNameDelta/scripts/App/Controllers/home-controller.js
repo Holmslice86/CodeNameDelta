@@ -25,6 +25,7 @@
         }
         ];
 
+
         vm.Answer = _answer;
         vm.Panels = _panels;
     }

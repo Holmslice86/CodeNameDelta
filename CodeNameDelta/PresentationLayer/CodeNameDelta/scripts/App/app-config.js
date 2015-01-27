@@ -4,7 +4,7 @@
 
     codeNameDelta.value("appSettings", {
         BaseUrl: _baseUrl,
-        Title: "Stormy Spaces"
+        Title: "Code Name Delta"
     });
 
     codeNameDelta.config(["$routeProvider", appConfig]);
