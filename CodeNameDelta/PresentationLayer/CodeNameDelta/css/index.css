@@ -1,2 +1,23 @@
 ﻿body {
 }
+.logo{
+    margin-top:20%;
+    width:100%;
+    position:center;
+}
+
+.loginElement {
+    margin:5px;
+}
+
+.loginButton{
+    margin:20px;
+}
+
+.loginBottom{
+ margin-left:10px;
+ margin-right:10px;
+ margin-bottom:20px;
+ height:35%;
+
+}

@@ -12,8 +12,8 @@
     function appConfig($routeProvider) {
 
         $routeProvider.when("/", {
-            templateUrl: _baseUrl + "../Scripts/App/Views/Cloud.html",
-            controller: "cloudController as vm"
+            templateUrl: _baseUrl + "../scripts/app/views/login.html",
+            controller: "loginController as vm"
         });
     }
 

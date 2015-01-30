@@ -15,10 +15,10 @@
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
 
-        var camera = document.getElementById('camera');
-        var library = document.getElementById('library');
-        camera.addEventListener('click', getCameraPhoto, false);
-        library.addEventListener('click', getLibraryPhoto, false);
+        //var camera = document.getElementById('camera');
+        //var library = document.getElementById('library');
+        //camera.addEventListener('click', getCameraPhoto, false);
+        //library.addEventListener('click', getLibraryPhoto, false);
     };
 
     function getCameraPhoto() {
